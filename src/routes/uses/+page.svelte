@@ -48,6 +48,18 @@
 		<a href="https://ghostty.org/">Ghostty</a>
 		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(my terminal of choice)</p>
 	</li>
+	<li>
+		<a href="https://github.com/tmux/tmux">tmux</a>
+		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(terminal multiplexer)</p>
+	</li>
+	<li>
+		<a href="https://claude.ai/code">Claude Code</a>
+		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(AI coding in the terminal)</p>
+	</li>
+	<li>
+		<a href="https://opencode.ai/">opencode</a>
+		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(AI coding TUI)</p>
+	</li>
 </ul>
 <h1 class="font-semibold">Apps &amp; Tools</h1>
 <ul class="list-disc list-inside">
