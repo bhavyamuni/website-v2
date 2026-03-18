@@ -19,84 +19,84 @@
 <ul class="list-disc list-inside">
 	<li>
 		<a href="https://www.apple.com/macbook-pro/">MacBook Pro M1 Pro</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(my main machine)</p>
+		<span class="font-light italic text-gray-600 text-sm">(my main machine)</span>
 	</li>
 	<li>
 		<span>LG 27" 4K Monitor</span>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(great for the desk setup)</p>
+		<span class="font-light italic text-gray-600 text-sm">(great for the desk setup)</span>
 	</li>
 	<li>
 		<a href="https://www.lofree.co/products/lofree-flow-the-smoothest-mac-mechanical-keyboard">Lofree Flow</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(smoothest mechanical keyboard)</p>
+		<span class="font-light italic text-gray-600 text-sm">(smoothest mechanical keyboard)</span>
 	</li>
 	<li>
 		<a href="https://www.logitech.com/en-us/products/mice/mx-master-3s.html">Logitech MX Master 3S</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(best mouse I've ever used)</p>
+		<span class="font-light italic text-gray-600 text-sm">(best mouse I've ever used)</span>
 	</li>
 	<li>
 		<span>Sony WH-1000XM6 (Blue)</span>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(noise cancelling godsend)</p>
+		<span class="font-light italic text-gray-600 text-sm">(noise cancelling godsend)</span>
 	</li>
 </ul>
 <h1 class="font-semibold">Editor &amp; Terminal</h1>
 <ul class="list-disc list-inside">
 	<li>
 		<a href="https://zed.dev/">Zed</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(blazing fast editor)</p>
+		<span class="font-light italic text-gray-600 text-sm">(blazing fast editor)</span>
 	</li>
 	<li>
 		<a href="https://ghostty.org/">Ghostty</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(my terminal of choice)</p>
+		<span class="font-light italic text-gray-600 text-sm">(my terminal of choice)</span>
 	</li>
 	<li>
 		<a href="https://github.com/tmux/tmux">tmux</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(terminal multiplexer)</p>
+		<span class="font-light italic text-gray-600 text-sm">(terminal multiplexer)</span>
 	</li>
 	<li>
 		<a href="https://claude.ai/code">Claude Code</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(AI coding in the terminal)</p>
+		<span class="font-light italic text-gray-600 text-sm">(AI coding in the terminal)</span>
 	</li>
 	<li>
 		<a href="https://opencode.ai/">opencode</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(AI coding TUI)</p>
+		<span class="font-light italic text-gray-600 text-sm">(AI coding TUI)</span>
 	</li>
 </ul>
 <h1 class="font-semibold">Apps &amp; Tools</h1>
 <ul class="list-disc list-inside">
 	<li>
 		<a href="https://raycast.com/">Raycast</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(replaced Spotlight, can't live without it)</p>
+		<span class="font-light italic text-gray-600 text-sm">(replaced Spotlight, can't live without it)</span>
 	</li>
 	<li>
 		<a href="https://arc.net/">Arc Browser</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(rethinking the browser)</p>
+		<span class="font-light italic text-gray-600 text-sm">(rethinking the browser)</span>
 	</li>
 	<li>
 		<a href="https://zen-browser.app/">Zen Browser</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(Firefox-based, minimal and clean)</p>
+		<span class="font-light italic text-gray-600 text-sm">(Firefox-based, minimal and clean)</span>
 	</li>
 	<li>
 		<a href="https://www.spotify.com/">Spotify</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(can't code without music)</p>
+		<span class="font-light italic text-gray-600 text-sm">(can't code without music)</span>
 	</li>
 	<li>
 		<a href="https://discord.com/">Discord</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(staying connected)</p>
+		<span class="font-light italic text-gray-600 text-sm">(staying connected)</span>
 	</li>
 </ul>
 <h1 class="font-semibold">This Website</h1>
 <ul class="list-disc list-inside">
 	<li>
 		<a href="https://kit.svelte.dev/">SvelteKit</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(the framework)</p>
+		<span class="font-light italic text-gray-600 text-sm">(the framework)</span>
 	</li>
 	<li>
 		<a href="https://tailwindcss.com/">Tailwind CSS</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(styling made easy)</p>
+		<span class="font-light italic text-gray-600 text-sm">(styling made easy)</span>
 	</li>
 	<li>
 		<a href="https://vercel.com/">Vercel</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(hosting & deployments)</p>
+		<span class="font-light italic text-gray-600 text-sm">(hosting & deployments)</span>
 	</li>
 </ul>
 <p />
