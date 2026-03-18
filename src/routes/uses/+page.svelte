@@ -18,7 +18,7 @@
 <h1 class="font-semibold">Hardware</h1>
 <ul class="list-disc list-inside">
 	<li>
-		<a href="https://www.apple.com/macbook-pro/">MacBook Pro 14" M3 Pro</a>
+		<a href="https://www.apple.com/macbook-pro/">MacBook Pro M1 Pro</a>
 		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(my main machine)</p>
 	</li>
 	<li>
@@ -26,58 +26,50 @@
 		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(great for the desk setup)</p>
 	</li>
 	<li>
-		<a href="https://www.logitech.com/en-us/products/keyboards/mx-keys-s.html">Logitech MX Keys S</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(smooth typing experience)</p>
+		<a href="https://www.lofree.co/products/lofree-flow-the-smoothest-mac-mechanical-keyboard">Lofree Flow</a>
+		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(smoothest mechanical keyboard)</p>
 	</li>
 	<li>
 		<a href="https://www.logitech.com/en-us/products/mice/mx-master-3s.html">Logitech MX Master 3S</a>
 		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(best mouse I've ever used)</p>
 	</li>
 	<li>
-		<span>Sony WH-1000XM5</span>
+		<span>Sony WH-1000XM6 (Blue)</span>
 		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(noise cancelling godsend)</p>
 	</li>
 </ul>
 <h1 class="font-semibold">Editor &amp; Terminal</h1>
 <ul class="list-disc list-inside">
 	<li>
-		<a href="https://code.visualstudio.com/">Visual Studio Code</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(my go-to for everything)</p>
+		<a href="https://zed.dev/">Zed</a>
+		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(blazing fast editor)</p>
 	</li>
 	<li>
-		<a href="https://www.jetbrains.com/idea/">IntelliJ IDEA</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(for Java/Kotlin projects)</p>
-	</li>
-	<li>
-		<a href="https://iterm2.com/">iTerm2</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(with oh-my-zsh)</p>
-	</li>
-	<li>
-		<a href="https://github.com/romkatv/powerlevel10k">Powerlevel10k</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(makes the terminal look 🔥)</p>
+		<a href="https://ghostty.org/">Ghostty</a>
+		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(my terminal of choice)</p>
 	</li>
 </ul>
 <h1 class="font-semibold">Apps &amp; Tools</h1>
 <ul class="list-disc list-inside">
 	<li>
-		<a href="https://www.notion.so/">Notion</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(my second brain)</p>
-	</li>
-	<li>
 		<a href="https://raycast.com/">Raycast</a>
 		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(replaced Spotlight, can't live without it)</p>
 	</li>
 	<li>
-		<a href="https://www.figma.com/">Figma</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(for all design work)</p>
+		<a href="https://arc.net/">Arc Browser</a>
+		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(rethinking the browser)</p>
 	</li>
 	<li>
-		<a href="https://tableplus.com/">TablePlus</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(clean database GUI)</p>
+		<a href="https://zen-browser.app/">Zen Browser</a>
+		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(Firefox-based, minimal and clean)</p>
 	</li>
 	<li>
-		<a href="https://www.postman.com/">Postman</a>
-		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(API testing)</p>
+		<a href="https://www.spotify.com/">Spotify</a>
+		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(can't code without music)</p>
+	</li>
+	<li>
+		<a href="https://discord.com/">Discord</a>
+		<p class="font-light italic text-gray-600 text-sm whitespace-nowrap">(staying connected)</p>
 	</li>
 </ul>
 <h1 class="font-semibold">This Website</h1>

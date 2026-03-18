@@ -36,8 +36,6 @@
 </p>
 <p class="">
 	<a href="/projects" class="font-semibold no-underline hover:underline">👾 Projects -&gt</a>
-	&nbsp;&nbsp;
-	<a href="/uses" class="font-semibold no-underline hover:underline">🛠️ Uses -&gt</a>
 </p>
 <p>
 	Apart from tech I am also into other nerdy stuff like aerospace, currently working on a design
