@@ -6,11 +6,9 @@
 		content="I’m Bhavya — working on distributed systems at Confluent. Come take a sneak peek into my world."
 	/>
 </svelte:head>
-<div class="flex flex-row justify-between items-center">
-	<h1 class="font-semibold text-3xl">
-		Hey, there <span class="inline-block hover:animate-wiggle">👋🏼</span>
-	</h1>
-</div>
+<h1 class="font-semibold text-3xl">
+	Hey, there <span class="inline-block hover:animate-wiggle">👋🏼</span>
+</h1>
 <p />
 <p class="">I’m Bhavya, welcome to my world!</p>
 <p>
@@ -19,7 +17,7 @@
 	each one teaching me something completely different.
 </p>
 <p>
-	It all started with making games. I surprisingly won the first ever game jam that I participated
+	It all started when I was 13, making games. I surprisingly won the first ever game jam that I participated
 	in (<a href="https://sketchu.itch.io/lit">it was lit</a>). After creating more games for a
 	couple of years I discovered Flutter. Launched
 	<a href="https://play.google.com/store/apps/details?id=com.amethyst.amethyst_app">an app</a>
@@ -30,7 +28,7 @@
 	Apart from tech, you'll find me playing table tennis, on the squash court, or being a coffee nerd.
 </p>
 <p class="">
-	<a href="/projects" class="font-semibold no-underline hover:underline">👾 Projects -&gt</a>
+	<a href="/projects" class="font-semibold">Projects -&gt</a>
 </p>
 <p>
 	Found anything interesting? Shoot me an email <em

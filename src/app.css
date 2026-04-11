@@ -7,27 +7,26 @@ strong {
 }
 
 a {
-	@apply underline font-medium underline-offset-2;
-	/* @apply hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-tr hover:from-orange-400 hover:to-blue-500; */
+	@apply font-medium underline underline-offset-2 decoration-gray-300 dark:decoration-gray-600;
+	@apply hover:decoration-gray-500 dark:hover:decoration-gray-400;
+	transition: text-decoration-color 0.15s ease;
 }
-p {
-	@apply font-normal;
+
+p,
+li {
+	@apply font-normal text-gray-700 dark:text-gray-300;
+}
+
+h1 {
+	@apply text-gray-900 dark:text-gray-100;
 }
 
 @layer components {
-	/* Path: src/components/MyComponent.css */
 	.bg-grad {
-		background: radial-gradient(
-				circle at var(--mx) var(--my),
-				rgb(241, 245, 249) 70%,
-				transparent 125%
-			),
-			linear-gradient(to right, rgb(253, 186, 116), rgb(253, 164, 175));
+		background: linear-gradient(135deg, #fafafa 0%, #f5f0eb 100%);
 	}
 
 	.bg-grad-dark {
-		background: radial-gradient(circle at var(--mx) var(--my), #191919 70%, transparent 150%),
-			linear-gradient(to right, #919bff, #133a94);
-		/* linear-gradient(to right, rgb(187, 247, 208), rgb(134, 239, 172), rgb(59, 130, 246)); */
+		background: linear-gradient(135deg, #1a1a1a 0%, #1e1b2e 100%);
 	}
 }

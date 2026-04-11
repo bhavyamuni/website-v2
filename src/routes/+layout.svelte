@@ -9,19 +9,10 @@
 	import '@fontsource/inter/800.css';
 
 	import Social from '$lib/Social.svelte';
-	import { spring } from 'svelte/motion';
 
 	import { dev } from '$app/environment';
 	import { inject } from '@vercel/analytics';
 	inject({ mode: dev ? 'development' : 'production' });
-	let innerWidth;
-	let innerHeight;
-	let mx = spring(0, { stiffness: 0.1, damping: 0.95 });
-	let my = spring(0, { stiffness: 0.1, damping: 0.95 });
-	function handleMousemove(event) {
-		mx.set(innerWidth - event.clientX);
-		my.set(innerHeight - event.clientY);
-	}
 
 	import { browser } from '$app/environment';
 
@@ -51,25 +42,24 @@
 	}
 </script>
 
-<svelte:window on:mousemove={handleMousemove} bind:innerWidth bind:innerHeight />
-<div
-	class="flex flex-col min-h-screen justify-center bg-grad dark:bg-grad-dark dark:text-white"
-	style="--mx: {$mx}px; --my: {$my}px;"
->
+<div class="relative flex flex-col min-h-screen justify-center bg-grad dark:bg-grad-dark dark:text-white">
+	<button
+		on:click={handleSwitchDarkMode}
+		class="fixed top-5 right-5 opacity-40 hover:opacity-70 transition-opacity"
+	>
+		{#if darkMode}
+			<i class="far fa-sun" />
+		{:else}
+			<i class="far fa-moon" />
+		{/if}
+	</button>
 	<div
-		class="flex flex-col w-4/5 md:max-w-2xl justify-center m-auto py-12 leading-relaxed space-y-3"
+		class="flex flex-col w-4/5 md:max-w-2xl justify-center m-auto py-16 leading-relaxed space-y-4"
 	>
 		<slot />
 	</div>
 	<Social />
-	<div class="opacity-60 flex flex-row justify-between md:justify-center">
-		<p class="text-xs py-4 ml-auto">made with lots of ☕️</p>
-		<button on:click={handleSwitchDarkMode} class="ml-auto mr-12">
-			{#if darkMode}
-				<i class="far fa-sun" />
-			{:else}
-				<i class="far fa-moon" />
-			{/if}
-		</button>
+	<div class="flex justify-center pb-6">
+		<p class="text-xs opacity-50">made with lots of ☕️</p>
 	</div>
 </div>
