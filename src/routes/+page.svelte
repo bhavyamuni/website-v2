@@ -13,16 +13,16 @@
 <p class="">I’m Bhavya, welcome to my world!</p>
 <p>
 	These days I work on distributed systems and networking problems at
-	<a href="https://www.confluent.io/">Confluent</a>. Before that, I did a bunch of internships, each
-	one teaching me something completely different.
+	<a href="https://www.confluent.io/">Confluent</a>. Before that, I did a bunch of internships,
+	each one teaching me something completely different.
 </p>
 <p>
-	It all started when I was 13, making games. I surprisingly won the first ever game jam that I
-	participated in (<a href="https://sketchu.itch.io/lit">it was lit</a>). After creating more games
-	for a couple of years I discovered Flutter. Launched
-	<a href="https://github.com/bhavyamuni/Amethyst">an app</a>
-	with some friends for connecting musicians which got <em>more than a thousand downloads</em> on the
-	play store. Somewhere along the way I also graduated from TMU.
+	It all started when I was 13, making games. I surprisingly won the first ever game jam that I participated
+	in (<a href="https://sketchu.itch.io/lit">it was lit</a>). After creating more games for a
+	couple of years I discovered Flutter. Launched
+	<a href="https://play.google.com/store/apps/details?id=com.amethyst.amethyst_app">an app</a>
+	with some friends for connecting musicians which got <em>more than a thousand downloads</em> on
+	the play store. Somewhere along the way I also graduated from TMU.
 </p>
 <p>
 	Apart from tech, you'll find me playing table tennis, on the squash court, or being a coffee nerd.
