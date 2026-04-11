@@ -9,7 +9,7 @@
 	<h1 class="font-semibold text-3xl">Projects</h1>
 </div>
 
-<p class="text-xs uppercase tracking-wider text-gray-400 dark:text-gray-500 mt-6">Projects</p>
+<p class="text-sm uppercase tracking-wider font-medium text-gray-500 dark:text-gray-400 mt-6">Projects</p>
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-1">
 	<a href="https://github.com/BhavyaMuni/ChromeDinoNeuroevolution" class="block py-4 border-b border-gray-200 dark:border-gray-700 no-underline">
 		<p class="font-medium">Chrome Dino (Neuro-evolution)</p>
@@ -37,7 +37,7 @@
 	</a>
 </div>
 
-<p class="text-xs uppercase tracking-wider text-gray-400 dark:text-gray-500 mt-8">Games</p>
+<p class="text-sm uppercase tracking-wider font-medium text-gray-500 dark:text-gray-400 mt-8">Games</p>
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-1">
 	<a href="https://sketchu.itch.io/lit" class="block py-4 border-b border-gray-200 dark:border-gray-700 no-underline">
 		<p class="font-medium">Lit</p>
