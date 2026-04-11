@@ -44,9 +44,9 @@
 	</a>
 </div>
 
-<div class="py-4 mt-8">
+<div class="block py-4 border-b border-gray-200 dark:border-gray-700 mt-8">
 	<p class="font-medium">Games</p>
-	<p class="text-sm text-gray-500 dark:text-gray-400 mt-1">
+	<p class="text-sm text-gray-500 dark:text-gray-400">
 		<a href="https://sketchu.itch.io/lit">Lit</a> ·
 		<a href="https://bhavyamuni.itch.io/bass-racer">Bass Racer</a> ·
 		<a href="https://bhavyamuni.itch.io/reinos">Reinos</a> ·
