@@ -44,21 +44,12 @@
 	</a>
 </div>
 
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-1 mt-8">
-	<a href="https://sketchu.itch.io/lit" class="block py-4 border-b border-gray-200 dark:border-gray-700 no-underline">
-		<p class="font-medium">Lit</p>
-		<p class="text-sm text-gray-500 dark:text-gray-400">won first place</p>
-	</a>
-	<a href="https://bhavyamuni.itch.io/bass-racer" class="block py-4 border-b border-gray-200 dark:border-gray-700 no-underline">
-		<p class="font-medium">Bass Racer</p>
-		<p class="text-sm text-gray-500 dark:text-gray-400">guitar hero + racing car</p>
-	</a>
-	<a href="https://bhavyamuni.itch.io/reinos" class="block py-4 border-b border-gray-200 dark:border-gray-700 no-underline">
-		<p class="font-medium">Reinos</p>
-		<p class="text-sm text-gray-500 dark:text-gray-400">made this one completely by myself</p>
-	</a>
-	<a href="https://xerahim.itch.io/welcome-to-the-shitshow" class="block py-4 border-b border-gray-200 dark:border-gray-700 no-underline">
-		<p class="font-medium">Welcome to the Sh*tshow</p>
-		<p class="text-sm text-gray-500 dark:text-gray-400">made it in 10 hours</p>
-	</a>
+<div class="py-4 mt-8">
+	<p class="font-medium">Games</p>
+	<p class="text-sm text-gray-500 dark:text-gray-400 mt-1">
+		<a href="https://sketchu.itch.io/lit">Lit</a> ·
+		<a href="https://bhavyamuni.itch.io/bass-racer">Bass Racer</a> ·
+		<a href="https://bhavyamuni.itch.io/reinos">Reinos</a> ·
+		<a href="https://xerahim.itch.io/welcome-to-the-shitshow">Welcome to the Sh*tshow</a>
+	</p>
 </div>
