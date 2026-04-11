@@ -26,6 +26,14 @@
 		<p class="font-medium">Schedule To Calendar</p>
 		<p class="text-sm text-gray-500 dark:text-gray-400">a little automation to get my schedules in gcal</p>
 	</a>
+	<a href="https://www.raycast.com/bhavya_muni/google-cloud-run" class="block py-4 border-b border-gray-200 dark:border-gray-700 no-underline">
+		<p class="font-medium">Raycast Extension</p>
+		<p class="text-sm text-gray-500 dark:text-gray-400">manage google cloud run services from raycast</p>
+	</a>
+	<a href="https://github.com/bhavyamuni/protohackers" class="block py-4 border-b border-gray-200 dark:border-gray-700 no-underline">
+		<p class="font-medium">Protohackers</p>
+		<p class="text-sm text-gray-500 dark:text-gray-400">network protocol challenges</p>
+	</a>
 	<a href="https://play.google.com/store/apps/details?id=com.amethyst.amethyst_app" class="block py-4 border-b border-gray-200 dark:border-gray-700 no-underline">
 		<p class="font-medium">Amethyst</p>
 		<p class="text-sm text-gray-500 dark:text-gray-400">mobile app to connect musicians</p>
