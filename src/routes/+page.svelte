@@ -26,6 +26,9 @@
 	with some friends for connecting musicians which got <em>more than a thousand downloads</em> on
 	the play store. Somewhere along the way I also graduated from TMU.
 </p>
+<p>
+	Apart from tech, you'll find me playing table tennis, on the squash court, or being a coffee nerd.
+</p>
 <p class="">
 	<a href="/projects" class="font-semibold no-underline hover:underline">👾 Projects -&gt</a>
 </p>
