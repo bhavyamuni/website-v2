@@ -1,87 +1,55 @@
-<script>
-	import Footer from '$lib/Footer.svelte';
-	import Social from '$lib/Social.svelte';
-</script>
-
 <svelte:head>
 	<title>Check out my projects!</title>
-	<meta name="title" content="Check out my projects projects - Bhavya Muni" />
+	<meta name="title" content="Check out my projects - Bhavya Muni" />
 	<meta name="description" content="Check out all the projects that Bhavya Muni has created!" />
 </svelte:head>
 
-<div class="flex flex-row justify-start items-center">
-	<a href="/" aria-label="Home"><i class="fas fa-chevron-left" /></a>
-	<div class="w-2" />
-	<h1 class="font-semibold text-3xl">Projects 👾</h1>
-	<!-- <img src="bitmoji.png" class="w-1/5 h-auto" alt="bitmoji" /> -->
+<div class="flex flex-row items-center gap-2">
+	<a href="/" aria-label="Home" class="no-underline"><i class="fas fa-chevron-left" /></a>
+	<h1 class="font-semibold text-3xl">Projects</h1>
 </div>
-<p />
-<h1 class="font-semibold">Game Dev</h1>
-<ul class="list-disc list-inside">
-	<li>
-		<a href="https://sketchu.itch.io/lit">Lit</a>
-		<p class="font-light italic text-gray-500 dark:text-gray-400 text-sm whitespace-nowrap">(won first place 🏆)</p>
-	</li>
-	<li>
-		<a href="https://bhavyamuni.itch.io/bass-racer">Bass Racer</a>
-		<p class="font-light italic text-gray-500 dark:text-gray-400 text-sm whitespace-nowrap">
-			(guitar hero + racing car)
-		</p>
-	</li>
-	<li>
-		<a href="https://bhavyamuni.itch.io/reinos">Reinos</a>
-		<p class="font-light italic text-gray-500 dark:text-gray-400 text-sm whitespace-nowrap">
-			(made this one completely by myself)
-		</p>
-	</li>
-	<li>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-1 mt-6">
+	<a href="https://github.com/bhavyamuni/protohackers" class="block py-4 border-b border-gray-200 dark:border-gray-700 no-underline">
+		<p class="font-medium">Protohackers</p>
+		<p class="text-sm text-gray-500 dark:text-gray-400">network protocol challenges</p>
+	</a>
+	<a href="https://github.com/BhavyaMuni/ChromeDinoNeuroevolution" class="block py-4 border-b border-gray-200 dark:border-gray-700 no-underline">
+		<p class="font-medium">Chrome Dino (Neuro-evolution)</p>
+		<p class="text-sm text-gray-500 dark:text-gray-400">a bunch of dinos trying to play by themselves</p>
+	</a>
+	<a href="https://huggingface.co/BhavyaMuni" class="block py-4 border-b border-gray-200 dark:border-gray-700 no-underline">
+		<p class="font-medium">Song Lyrics Generator</p>
+		<p class="text-sm text-gray-500 dark:text-gray-400">generates Taylor Swift lyrics</p>
+	</a>
+	<a href="https://www.raycast.com/bhavya_muni/google-cloud-run" class="block py-4 border-b border-gray-200 dark:border-gray-700 no-underline">
+		<p class="font-medium">Raycast Extension</p>
+		<p class="text-sm text-gray-500 dark:text-gray-400">manage google cloud run services from raycast</p>
+	</a>
+	<a href="https://github.com/BhavyaMuni/coffee-price-app" class="block py-4 border-b border-gray-200 dark:border-gray-700 no-underline">
+		<p class="font-medium">Coffee Price Predictor</p>
+		<p class="text-sm text-gray-500 dark:text-gray-400">learned how to deploy full-stack ML apps</p>
+	</a>
+	<a href="https://github.com/BhavyaMuni/schedule-to-cal" class="block py-4 border-b border-gray-200 dark:border-gray-700 no-underline">
+		<p class="font-medium">Schedule To Calendar</p>
+		<p class="text-sm text-gray-500 dark:text-gray-400">a little automation to get my schedules in gcal</p>
+	</a>
+	<a href="https://play.google.com/store/apps/details?id=com.amethyst.amethyst_app" class="block py-4 border-b border-gray-200 dark:border-gray-700 no-underline">
+		<p class="font-medium">Amethyst</p>
+		<p class="text-sm text-gray-500 dark:text-gray-400">mobile app to connect musicians</p>
+	</a>
+	<a href="https://www.youtube.com/watch?v=9M5DYjUQpVw" class="block py-4 border-b border-gray-200 dark:border-gray-700 no-underline">
+		<p class="font-medium">TED Talk</p>
+		<p class="text-sm text-gray-500 dark:text-gray-400">a little cringe but i'm proud</p>
+	</a>
+</div>
+
+<div class="block py-4 border-b border-gray-200 dark:border-gray-700 mt-8">
+	<p class="font-medium">Games</p>
+	<p class="text-sm text-gray-500 dark:text-gray-400">
+		<a href="https://sketchu.itch.io/lit">Lit</a> ·
+		<a href="https://bhavyamuni.itch.io/bass-racer">Bass Racer</a> ·
+		<a href="https://bhavyamuni.itch.io/reinos">Reinos</a> ·
 		<a href="https://xerahim.itch.io/welcome-to-the-shitshow">Welcome to the Sh*tshow</a>
-		<p class="font-light italic text-gray-500 dark:text-gray-400 text-sm whitespace-nowrap">(made it in 10 hours)</p>
-	</li>
-</ul>
-<h1 class="font-semibold">ML stuff</h1>
-<ul class="list-disc list-inside">
-	<li>
-		<a href="https://github.com/BhavyaMuni/ChromeDinoNeuroevolution">
-			Chrome Dino (Neuro-evolution)</a
-		>
-		<p class="font-light italic text-gray-500 dark:text-gray-400 text-sm whitespace-nowrap">
-			(a bunch of dinos trying to play by themselves)
-		</p>
-	</li>
-	<li>
-		<a href="https://huggingface.co/BhavyaMuni">Song Lyrics Generator</a>
-		<p class="font-light italic text-gray-500 dark:text-gray-400 text-sm whitespace-nowrap">
-			(generates Taylor Swift lyrics)
-		</p>
-	</li>
-	<li>
-		<a href="https://github.com/BhavyaMuni/coffee-price-app">Coffee Price Predictor</a>
-		<p class="font-light italic text-gray-500 dark:text-gray-400 text-sm whitespace-nowrap">
-			(learned how to deploy full-stack ML apps)
-		</p>
-	</li>
-</ul>
-<h1 class="font-semibold">Misc.</h1>
-<ul class="list-disc list-inside">
-	<li>
-		<a href="https://github.com/BhavyaMuni/schedule-to-cal">Schedule To Calendar</a>
-		<p class="font-light italic text-gray-500 dark:text-gray-400 text-sm whitespace-nowrap">
-			(a little automation to get my schedules in gcal)
-		</p>
-	</li>
-	<li>
-		<a href="https://play.google.com/store/apps/details?id=com.amethyst.amethyst_app">Amethyst</a>
-		<p class="font-light italic text-gray-500 dark:text-gray-400 text-sm whitespace-nowrap">
-			(mobile app to connect musicians)
-		</p>
-	</li>
-	<li>
-		<a href="https://www.youtube.com/watch?v=9M5DYjUQpVw">TED Talk</a>
-		<p class="font-light italic text-gray-500 dark:text-gray-400 text-sm whitespace-nowrap">
-			(a little cringe but i'm proud)
-		</p>
-	</li>
-</ul>
-<p />
-<p />
+	</p>
+</div>
